@@ -1,7 +1,6 @@
 import axios from "axios";
 
 
-
 const creaatePayment = async (req, res) => {
     
     const respuesta = await axios({
@@ -47,8 +46,6 @@ const executePayment = async (req, res) => {
     } catch (error) {
         console.log(error)
     }
-    
-
     
 }
 
